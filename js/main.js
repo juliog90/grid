@@ -43,16 +43,16 @@ function init() {
     
     // <td>1001</td>
     gridStudents.addColumn(new textColumn('First Name', 'name.firstName', '35%'));
-    gridStudents.addColumn(new textColumn('Last Name', 'name.lastName', '35%'));
+    gridStudents.addColumn(new textColumn('Last Name', 'name.LastName', '35%'));
     // add data source
     gridStudents.setDataSource(data.students);
     // show edit button
     // showEditButton(functionName,argument)
     
-  // gridStudents.ShowEditButton('editStudent','id');
+  gridStudents.ShowEditButton('editStudent','id');
     // <td><button onClick="editStudent(1001);"><img src="images/edit.png"/><button>
     // show Delete Button
-   // gridStudents.ShowDeleteButton('deleteStudent','id');
+   gridStudents.ShowDeleteButton('deleteStudent','id');
     
     // show grid
     

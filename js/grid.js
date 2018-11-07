@@ -20,11 +20,13 @@ function Grid(id, parentDiv) {
   Grid.prototype.addColumn = function(column) {
     this.columns[this.columns.length] = column;
   };
-  Grid.prototype.ShowEditButton = function(column) {
-    this.columns[this.columns.length]=column;
+  Grid.prototype.ShowEditButton = function(rows) {
+    this.rows[this.rows.length]=rows;
   };
-  Grid.prototype.ShowDeleteButton = function(column) {
-    this.columns[this.columns.length]=column;
+  Grid.prototype.ShowDeleteButton = function(rows) {
+    this.rows[this.rows.length]=rows;
+    // funcionara?
+    //
   };
 
 
