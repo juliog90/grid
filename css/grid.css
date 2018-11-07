@@ -1,0 +1,25 @@
+.grid {
+    width: 100%;
+    background: #DDD;
+    border-spacing: 1px;
+}
+
+.grid th {
+    background: #EEE;
+    color: #333;
+    padding: 10px 0px 10px 0px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.grid td {
+    background: #FFF;
+    color: #555;
+    padding: 10px 0px 10px 0px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+img.imgtable {
+    width: 50%;
+}
