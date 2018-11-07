@@ -42,8 +42,8 @@ function init() {
     // <td class="grid image"><img src="photos/1001.jpg"/></td>
     
     // <td>1001</td>
-    gridStudents.addColumn(new textColumn('First Name', 'name.FirstName', '35%'));
-    gridStudents.addColumn(new textColumn('Last Name', 'name.LastName', '35%'));
+    gridStudents.addColumn(new textColumn('First Name', 'name.firstName', '35%'));
+    gridStudents.addColumn(new textColumn('Last Name', 'name.lastName', '35%'));
     // add data source
     gridStudents.setDataSource(data.students);
     // show edit button

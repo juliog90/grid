@@ -7,7 +7,6 @@ function textColumn(headerText, dataField, width) {
 function ImageColumn(headerText, dataField) {
   if (typeof headerText !== 'undefined') this.headerText=headerText;
   if (typeof dataField !== 'undefined') this.dataField=dataField;
-  if (typeof width !== 'undefined') this.width=width;
 }
 
 // grid class
